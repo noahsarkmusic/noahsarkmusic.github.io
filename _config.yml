@@ -7,6 +7,9 @@ timezone: America/Montreal
 permalink: /blog/:categories/:year/:month/:day/:title.html
 paginate_path: /blog/page:num
 
+gems:
+  - jekyll-sitemap
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.noahsarkmusic.com'
