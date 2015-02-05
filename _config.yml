@@ -1,9 +1,23 @@
-# Site settings
-title: Noah's Ark
-url: "http://noahsarkmusic.com" # the base hostname & protocol for your site
-
-# Build settings
+name: Noah's Ark
 markdown: kramdown
-
-exclude: ["README.md"]
+highlighter: pygments
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 timezone: America/Montreal
+
+permalink: /blog/:categories/:year/:month/:day/:title.html
+paginate_path: /blog/page:num
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.noahsarkmusic.com'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"

@@ -1,0 +1,48 @@
+---
+layout: blog
+---
+
+<div id="{{ page.category }}">
+	<div class="container">
+
+		<h2 class="text-center desdemona">{{ page.category | capitalize }} Posts</h2>
+
+    	<div class="row">
+        	<div class="col-md-8 col-md-offset-2">
+
+				<ul class="list-unstyled">
+				{% for post in site.categories[page.category] %}
+					<hr>
+					<li>
+						<h3 class="desdemona"><a href="{{ post.url }}" class="so-link">{{ post.title }}</a></h3>
+						<h4 class="garamond text-right">
+							<small>{{ post.date | date_to_long_string }} in <a href="/blog/{{ post.categories | first }}" class="so-link">{{ post.categories | first | capitalize }}</a> - <a href="{{ post.url }}#disqus_thread" class="so-link"></a></small>
+						</h4>
+						<div class="garamond lead text-justify">
+
+						{{ post.excerpt }}
+
+						</div>
+						<p class="garamond text-right"><a href="{{ post.url }}" class="so-link">Read More...</a></p>
+					</li>
+				{% endfor %}
+				</ul>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'noahsarkmusic'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Noah's Ark">
+        <meta name="description" content="Noah's Ark Official Music Website">
         <meta name="keywords" content="Noah, Ark, Music">
         <meta name="author" content="Noah's Ark">
 
@@ -14,11 +14,11 @@
         <!-- Bootstrap -->
         <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- fullPage CSS -->
-        <link href="/css/jquery.fullPage.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-        <!-- syntax highlighting CSS -->
-        <link href="/css/syntax.css" rel="stylesheet">
+        <!-- MailChimp CSS -->
+        <link href="/css/classic-081711.css" rel="stylesheet">
 
         <!-- main CSS -->
         <link href="/css/main.css" rel="stylesheet">
@@ -44,28 +44,131 @@
     </head>
     <body>
 
+    <div class="wrapper">
+
+        <div class="navbar navbar-inverse navbar-fixed-top visible-sm visible-xs" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <span class="copperplate">{{ site.name }}</span>
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#intro" class="smooth-scroll"><span class="copperplate">Home</span></a></li>
+                        <li><a href="#music-section" class="smooth-scroll"><span class="copperplate">Music</span></a></li>
+                        <li><a href="#story-section" class="smooth-scroll"><span class="copperplate">Story</span></a></li>
+                        <li><a href="#biography-section" class="smooth-scroll"><span class="copperplate">Biography</span></a></li>
+                        <li><a href="#contact-section" class="smooth-scroll"><span class="copperplate">Contact</span></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/blog"><span class="copperplate">Blog</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="side-nav" class="pull-right hidden-sm hidden-xs">
+            <ul class="nav nav-pills nav-stacked text-right side">
+                <li><a href="#intro" class="smooth-scroll"><span class="copperplate">Home</span></a></li>
+                <li><a href="#music-section" class="smooth-scroll"><span class="copperplate">Music</span></a></li>
+                <li><a href="#story-section" class="smooth-scroll"><span class="copperplate">Story</span></a></li>
+                <li><a href="#biography-section" class="smooth-scroll"><span class="copperplate">Biography</span></a></li>
+                <li><a href="#contact-section" class="smooth-scroll"><span class="copperplate">Contact</span></a></li>
+                <li><a href="/blog"><span class="copperplate">Blog</span></a></li>
+            </ul>
+        </div>
+
     {{ content }}
+
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/js/jquery-1.11.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
-    <!-- easings JS -->
-    <script src="/js/jquery.easings.min.js"></script>
-    <!-- slimScroll JS -->
-    <script src="/js/jquery.slimscroll.min.js"></script>
-    <!-- fullPage JS -->
-    <script src="/js/jquery.fullPage.min.js"></script>
+    <!-- Smooth Scroll JS -->
+    <script src="/js/smoothscroll.js"></script>
+    <!-- Stellar JS -->
+    <script src="/js/jquery.stellar.min.js"></script>
+    <!-- Parallax JS -->
+    <script src="/js/jquery.parallax.min.js"></script>
+    <!-- SoundCloud JS -->
+    <script src="/js/soundcloud-api.js"></script>
 
     <script>
-
         $(document).ready(function() {
-            $('#fullpage').fullpage({
-                anchors: ['first', 'second'],
-                sectionsColor: ['#2ecc71', '#e67e22']
+            $.localScroll({
+                filter: '.smooth-scroll',
+                offset: -50
+            });
+
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 50
+            });
+
+            //$('#scene').parallax();
+        });
+    </script>
+
+    <script>
+        $(function() {
+            var widget = SC.Widget(document.getElementById('sc-widget'));
+
+            widget.bind(SC.Widget.Events.READY, function() {
+                $('.btn-play').html('<i class="fa fa-play"></i>');
+
+                $('.btn-play').click(function() {
+                    widget.toggle();
+                });
+                $('.btn-prev').click(function() {
+                    widget.prev();
+                });
+                $('.btn-next').click(function() {
+                    widget.next();
+                });
+                $('.btn-track').click(function() {
+                    var track = $(this).data('track');
+                    widget.skip(track);
+                });
+                $('.progress').click(function (ev) {
+                    var size = $(this).width();
+                    var offset = $(this).offset();
+                    var x = ev.clientX - offset.left;
+                    var result = x/size;
+                    widget.getDuration(function(soundDuration) {
+                        widget.seekTo(result*soundDuration);
+                    });
+                });
+            });
+
+            widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(currentProgress) {
+                var percent = currentProgress.relativePosition * 100;
+                $('#sc-progress').attr('style', 'width: ' + percent + '%;');
+            });
+
+            widget.bind(SC.Widget.Events.PLAY, function() {
+                $('.btn-play').html('<i class="fa fa-pause"></i>');
+                widget.getCurrentSound(function(currentSound) {
+                    $('#sc-title').text(currentSound.title);
+                });
+            });
+
+            widget.bind(SC.Widget.Events.PAUSE, function() {
+                $('.btn-play').html('<i class="fa fa-play"></i>');
+            });
+
+            widget.bind(SC.Widget.Events.ERROR, function() {
+                $('.btn-play').html('<i class="fa fa-ban"></i> Error');
             });
         });
-
     </script>
 
     </body>
