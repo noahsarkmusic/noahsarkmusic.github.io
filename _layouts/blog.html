@@ -3,11 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>The Ark Blog - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Noah's Ark Official Music Website">
         <meta name="keywords" content="Noah, Ark, Music">
         <meta name="author" content="Noah's Ark">
+
+        {% if page.id %}
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:site_name" content="The Ark Blog">
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="og:description" content="{{ page.excerpt | strip_html }}">
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+        <meta property="og:type" content="article">
+        <meta property="fb:app_id" content="1385685728408698">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@noahsmusicark">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+        {% endif %}
 
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 

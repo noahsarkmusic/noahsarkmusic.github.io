@@ -3,6 +3,7 @@ markdown: kramdown
 highlighter: pygments
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 timezone: America/Montreal
+url: http://www.noahsarkmusic.com
 
 permalink: /blog/:categories/:year/:month/:day/:title.html
 paginate_path: /blog/page:num
