@@ -18,6 +18,11 @@ layout: blog
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
 
+            {% if page.image %}
+            <img src="{{ page.image }}" class="img-thumbnail img-responsive">
+            <h5 class="garamond lead text-center text-muted"><em>{{ page.caption }}</em></h5>
+            {% endif %}
+            
             <div class="garamond lead text-justify">
 
         	{{ content }}
