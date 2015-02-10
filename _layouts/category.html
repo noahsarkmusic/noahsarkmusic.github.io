@@ -14,16 +14,27 @@ layout: blog
 				{% for post in site.categories[page.category] %}
 					<hr>
 					<li>
-						<h3 class="desdemona"><a href="{{ post.url }}" class="so-link">{{ post.title }}</a></h3>
-						<h4 class="garamond text-right">
-							<small>{{ post.date | date_to_long_string }} in <a href="/blog/{{ post.categories | first }}" class="so-link">{{ post.categories | first | capitalize }}</a> - <a href="{{ post.url }}#disqus_thread" class="so-link"></a></small>
-						</h4>
-						<div class="garamond lead text-justify">
+						<div class="row">
+							<div class="col-xs-3">
+								{% if post.image %}
+									<a href="{{ post.url }}">
+										<img src="{{ post.image }}" class="img-thumbnail img-responsive">
+									</a>
+								{% endif %}
+							</div>
+        					<div class="col-xs-9">
+								<h3 class="desdemona"><a href="{{ post.url }}" class="so-link">{{ post.title }}</a></h3>
+								<h4 class="garamond text-right">
+									<small>{{ post.date | date_to_long_string }} in <a href="/blog/{{ post.categories | first }}" class="so-link">{{ post.categories | first | capitalize }}</a> - <a href="{{ post.url }}#disqus_thread" class="so-link"></a></small>
+								</h4>
+								<div class="garamond lead text-justify">
 
-						{{ post.excerpt }}
+								{{ post.excerpt }}
 
+								</div>
+								<p class="garamond text-right"><a href="{{ post.url }}" class="so-link">Read More...</a></p>
+							</div>
 						</div>
-						<p class="garamond text-right"><a href="{{ post.url }}" class="so-link">Read More...</a></p>
 					</li>
 				{% endfor %}
 				</ul>
