@@ -109,6 +109,13 @@
 	color: black;
 }
 
+@media (max-width: 991px) {
+	.title
+	{
+		background-attachment: scroll;
+	}
+}
+
 /*****************************************************************************/
 /*
 /* Blog
