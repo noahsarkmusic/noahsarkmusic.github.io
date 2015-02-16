@@ -16,14 +16,14 @@ title: All
 					<hr>
 					<li>
 						<div class="row">
-							<div class="col-xs-3">
+							<div class="col-sm-3">
 								{% if post.image %}
 									<a href="{{ post.url }}">
 										<img src="{{ post.image }}" class="img-thumbnail img-responsive">
 									</a>
 								{% endif %}
 							</div>
-        					<div class="col-xs-9">
+        					<div class="col-sm-9">
 								<h3 class="desdemona"><a href="{{ post.url }}" class="so-link">{{ post.title }}</a></h3>
 								<h4 class="garamond text-right">
 									<small>{{ post.date | date_to_long_string }} in <a href="/blog/{{ post.categories | first }}" class="so-link">{{ post.categories | first | capitalize }}</a> - <a href="{{ post.url }}#disqus_thread" class="so-link"></a></small>
