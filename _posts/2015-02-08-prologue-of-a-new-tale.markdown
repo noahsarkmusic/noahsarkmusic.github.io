@@ -3,7 +3,7 @@ layout: post
 title:  "Prologue of a New Tale"
 category: news
 image: /media/typewriter.jpg
-caption: Typewriter and books, the source of all inspirations.
+caption: "Typewriter and books, the source of all inspirations."
 ---
 
 This week, the website was published as a portal for my [new musical endeavors](/#music-section). The Ark has finally lifted its anchor and a new chapter begins.
