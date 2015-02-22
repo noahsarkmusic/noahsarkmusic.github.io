@@ -45,10 +45,10 @@ layout: blog
             </div>
             <hr>
             <ul class="list-inline garamond lead clearfix">
-                {% if page.previous != nil %}
+                {% if page.previous %}
                 <li class="pull-left"><a href="{{ page.previous.url }}" class="so-link">&larr; Older</a></li>
                 {% endif %}
-                {% if page.next != nil %}
+                {% if page.next %}
                 <li class="pull-right"><a href="{{ page.next.url }}" class="so-link">Newer &rarr;</a></li>
                 {% endif %}
             </ul>
