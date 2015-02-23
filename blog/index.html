@@ -12,7 +12,7 @@ title: All
         	<div class="col-md-8 col-md-offset-2">
 
 				<ul class="list-unstyled">
-				{% for post in site.posts %}
+				{% for post in paginator.posts %}
 					<hr>
 					<li>
 						<div class="row">
@@ -38,6 +38,15 @@ title: All
 						</div>
 					</li>
 				{% endfor %}
+				</ul>
+				<hr>
+				<ul class="list-inline garamond lead clearfix">
+				  	{% if paginator.previous_page %}
+				    	<li class="pull-left"><a href="{{ paginator.previous_page_path }}" class="so-link">&larr; Previous</a></li>
+				  	{% endif %}
+				  	{% if paginator.next_page %}
+				    	<li class="pull-right"><a href="{{ paginator.next_page_path }}" class="so-link">Next &rarr;</a></li>
+				  	{% endif %}
 				</ul>
 
 			</div>
