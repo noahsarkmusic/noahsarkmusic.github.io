@@ -158,6 +158,7 @@
                 $('.btn-play').html('<i class="fa fa-pause"></i>');
                 widget.getCurrentSound(function(currentSound) {
                     $('#sc-title').text(currentSound.title);
+                    ga('send', 'event', 'Music', 'Play', currentSound.title);
                 });
             });
 
