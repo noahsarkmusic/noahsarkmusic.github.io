@@ -16,7 +16,7 @@ First of all, the story is catchy and brilliant. Not just a regular album, _Zigg
 
 Furthermore, the compositions are well-crafted. The album is composed of several hit singles such as “Starman”, “Ziggy Stardust” and “Suffragette City”. Bowie mixes a good balance of straight-up rock and roll as well as enchanting rock ballads with a perfect amount of sing-along melodies to make it popular.
 
-Moreover, the lyrics are sexy. Right on the verge of provocation and incomprehension, they depict a raw but impersonal reality that Bowie truly embraces in the Ziggy persona. David becomes Ziggy to the point where he forgets who he is.
+Moreover, the lyrics are sexy. Right on the verge of provocation and incomprehension, they depict a raw but personal reality that Bowie truly embraces in the Ziggy persona. David becomes Ziggy to the point where he forgets who he is.
 
 All in all, this is one of those perfect albums that transports you from start to finish without boredom. What made this story relatable and realistic is the important fact that Ziggy’s identity transcended into Bowie’s life.
 
