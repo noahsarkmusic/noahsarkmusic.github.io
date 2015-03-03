@@ -109,6 +109,18 @@
 	color: black;
 }
 
+#side-social
+{
+	position: fixed;
+	top: 30%;
+	left: 0;
+}
+
+#side-social li
+{
+	padding: 10px 15px;
+}
+
 @media (max-width: 991px) {
 	.title
 	{
