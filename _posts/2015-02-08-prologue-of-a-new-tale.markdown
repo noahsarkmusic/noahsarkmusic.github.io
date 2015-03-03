@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Prologue of a New Tale"
 category: news
 image: /media/typewriter.jpg

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Classic Records that Shaped my Album: The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
 category: heroes
 image: /media/ziggy_vinyl.jpg

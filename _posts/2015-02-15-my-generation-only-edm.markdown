@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "My Generation, Only EDM ?"
 category: misc
 image: /media/ducourant_book.jpg

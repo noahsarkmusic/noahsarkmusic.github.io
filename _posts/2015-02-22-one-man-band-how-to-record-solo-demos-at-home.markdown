@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "One-Man Band: How to Record Solo Demos at Home"
 category: gear
 image: /media/shiva.jpg
