@@ -3,6 +3,11 @@ title:  "One-Man Band: How to Record Solo Demos at Home"
 category: gear
 image: /media/shiva.jpg
 caption: "My impression of Shiva... Harder than I thought."
+tags:
+  - recording
+  - studio
+  - demo
+  - musicianship
 ---
 
 First off, I’d like to mention that I entirely wrote, recorded and produced my [first demos](/#music-section) alone at home. Therefore, I believe I have a few comments to share with people out there, like me, that are one-man bands of the studio: essentially multi-instrumentalists that have a precise goal of becoming a single musical entity on recorded material.

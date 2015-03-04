@@ -3,6 +3,11 @@ title:  "My Generation, Only EDM ?"
 category: misc
 image: /media/ducourant_book.jpg
 caption: "My Generation, Only Rock And Roll ? by Bruno Ducourant."
+tags:
+  - book
+  - rock-and-roll
+  - blues
+  - musicianship
 ---
 
 Last month, I received a beautiful photography book by [Bruno Ducourant](http://bducourant.wix.com/mygenerationonly). _My Generation, Only Rock And Roll ?_ is a collection of black and white photographs from 1968 to 1974. These images depict classic rock legends such as Led Zeppelin, The Who and The Rolling Stones, captured in their initial spark of future stardom.

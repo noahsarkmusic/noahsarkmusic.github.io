@@ -3,6 +3,10 @@ title:  "Classic Records that Shaped my Album: The Rise and Fall of Ziggy Stardu
 category: heroes
 image: /media/ziggy_vinyl.jpg
 caption: "UK pressing of The Rise and Fall of Ziggy Stardust and the Spiders from Mars by David Bowie."
+tags:
+  - album
+  - david-bowie
+  - ziggy-stardust
 ---
 
 As much as I dislike rankings, I would definitely put _The Rise and Fall of Ziggy Stardust and the Spiders from Mars_ at one of the top spots in a list of best albums. I’ll tell you the reasons why.
