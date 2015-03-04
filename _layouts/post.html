@@ -33,20 +33,26 @@ layout: blog
 
             </div>
 
-            <div class="row">
-                <div class="col-xs-6 col-sm-3" style="vertical-align: top;">
+            <ul class="list-inline social">
+                <li>
                     <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count"></div>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-via="noahsmusicark" data-size="medium" data-hashtags="thearkblog" data-text="{{ page.title }}">Tweet</a>
-                </div>
-                <div class="col-xs-6 col-sm-3" style="vertical-align: top;">
+                </li>
+                <li>
                     <div class="fb-like" data-href="https://www.facebook.com/noahsmusicark" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                </div>
-                <div class="col-xs-6 col-sm-3">
+                </li>
+                <li>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-size="medium" data-via="noahsmusicark" data-hashtags="thearkblog" data-text="{{ page.title }}">Tweet</a>
+                </li>
+                <li>
                     <a href="https://twitter.com/noahsmusicark" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow</a>
-                </div>
-            </div>
+                </li>
+                <li>
+                    <div class="g-plus" data-href="{{ site.url }}{{ page.url }}" data-annotation="bubble" data-height="20" data-action="share"></div>
+                </li>
+                <li>
+                    <div class="g-follow" data-href="https://plus.google.com/+noahsarkmusicofficial" data-annotation="bubble" data-height="20" data-rel="publisher"></div>
+                </li>
+            </ul>
             <hr>
             <ul class="list-inline garamond lead clearfix">
                 {% if page.previous %}

@@ -121,6 +121,11 @@
 	padding: 10px 15px;
 }
 
+.social li
+{
+	vertical-align: top;
+}
+
 @media (max-width: 991px) {
 	.title
 	{
