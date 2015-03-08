@@ -8,6 +8,8 @@ tags:
   - studio
   - demo
   - musicianship
+  - pete-townshend
+  - todd-rundgren
 ---
 
 First off, I’d like to mention that I entirely wrote, recorded and produced my [first demos](/#music-section) alone at home. Therefore, I believe I have a few comments to share with people out there, like me, that are one-man bands of the studio: essentially multi-instrumentalists that have a precise goal of becoming a single musical entity on recorded material.
