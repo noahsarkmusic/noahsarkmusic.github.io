@@ -14,7 +14,7 @@ Last month, I received a beautiful photography book by [Bruno Ducourant](http://
 
 The book however, is not just a slideshow of vintage rock pictures. It comes with a narrative description of Ducourant’s adventures, a genuine fan, during the era when all it took to be cool was to rock and roll. Half-conscious of the phenomenon the photographer was witnessing, he immortalized what was to become the most precious moments in rock history.
 
-![Page, Clapton, King](/media/pageclaptonking.jpg){: .img-thumbnail .img-responsive}
+![Page, Clapton, King](/media/pageclaptonking.jpg){: .img-thumbnail .img-responsive .img-constraint .center-block}
 
 _Jimmy Page, Eric Clapton, B. B. King. Photo courtesy of Bruno Ducourant._
 {: .text-center .text-muted}

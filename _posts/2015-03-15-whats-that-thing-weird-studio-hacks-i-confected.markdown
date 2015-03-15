@@ -14,7 +14,7 @@ As a DIY studio musician, I inevitably feel this need to create contraptions tha
 
 # __The Umbrella Booth:__
 
-![Umbrella Booth](/media/booth.jpg){: .img-thumbnail .img-responsive}
+![Umbrella Booth](/media/booth.jpg){: .img-thumbnail .img-responsive .img-constraint .center-block}
 
 _The umbrella booth contraption in the Ark studio._
 {: .text-center .text-muted}
@@ -25,7 +25,7 @@ A variation from the well-known blanket trick is this substitution with an umbre
 
 # __The Storage Stand:__
 
-![Storage Stand](/media/stand.jpg){: .img-thumbnail .img-responsive}
+![Storage Stand](/media/stand.jpg){: .img-thumbnail .img-responsive .img-constraint .center-block}
 
 _The storage stand contraption in the Ark studio._
 {: .text-center .text-muted}
@@ -36,7 +36,7 @@ I needed a stand for my keyboard and lap steel but as you might know, these are 
 
 # __The Cable Clothes Rack:__
 
-![Cable Clothes Rack](/media/cables.jpg){: .img-thumbnail .img-responsive}
+![Cable Clothes Rack](/media/cables.jpg){: .img-thumbnail .img-responsive .img-constraint .center-block}
 
 _The cable clothes rack contraption in the Ark studio._
 {: .text-center .text-muted}
