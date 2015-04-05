@@ -10,7 +10,7 @@ tags:
 
 Dear [Mr Townshend](http://www.petetownshend.com),
 
-I am only twenty-two years old and still have a lot to experience in my life. My name is Noah and I just finished reading your autobiography Who I Am. I cannot tell you how much you have influenced me as a musician/songwriter but above all, how much impact you will have in my musical career from now on.
+I am only twenty-two years old and still have a lot to experience in my life. My name is Noah and I just finished reading your autobiography _Who I Am_. I cannot tell you how much you have influenced me as a musician/songwriter but above all, how much impact you will have in my musical career from now on.
 
 My first encounter to The Who universe was thanks to my drum teacher. She came back one day from India, to teach us the rhythmic system used there, but most importantly she told us that we were going to play Tommy for the year-end concert. I was assigned the drum part of “Amazing Journey”. This was truly the beginning of an amazing journey of discovery that lead me to appreciate classic rock and rock operas for life.
 
