@@ -1,6 +1,4 @@
 name: Noah's Ark Music
-markdown: kramdown
-highlighter: pygments
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 timezone: America/Montreal
 url: http://www.noahsarkmusic.com
