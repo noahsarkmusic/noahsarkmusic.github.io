@@ -9,6 +9,7 @@ paginate: 5
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 defaults:
   -
