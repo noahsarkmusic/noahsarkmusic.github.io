@@ -1,0 +1,127 @@
+---
+layout: default
+title: Music
+---
+
+<div id="music">
+
+    <div class="container text-center">
+        <h1 class="copperplate">Music</h1>
+        <br>
+    </div>
+
+    <iframe id="sc-widget-rr" class="sc-widget" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/194832179"></iframe>
+    <iframe id="sc-widget-gl" class="sc-widget" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/63375209"></iframe>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3">
+                        <div class="center-block">
+                            <img class="img-rounded img-responsive center-block" src="/img/rocketradio_cover.jpg" alt="Rocket Radio">
+                            <div class="btn-group btn-group-justified">
+                                <a class="btn btn-default btn-prev-rr"><i class="fa fa-backward"></i></a>
+                                <a class="btn btn-default btn-play-rr"><i class="fa fa-spinner fa-spin"></i></a>
+                                <a class="btn btn-default btn-next-rr"><i class="fa fa-forward"></i></a>
+                            </div>
+                            <div id="progress-rr" class="progress">
+                                <div id="sc-progress-rr" class="progress-bar" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                            <h4 id="sc-title-rr" class="text-center copperplate"></h4>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="garamond text-center"><strong>10<br> (or the Rocket Radio)</strong></h2>
+                <br>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-hover copperplate">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Singles</th>
+                                    <th class="text-right">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for track in site.data.tracks.rocketradio %}
+                                <tr class="btn-track-rr" data-track="{{ track.number | minus: 1 }}">
+                                    <th scope="row">{{ track.number }}</th>
+                                    <td>{{ track.title }}</td>
+                                    <td class="text-right">{{ track.length }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3">
+                        <div class="center-block">
+                            <img class="img-rounded img-responsive center-block" src="/img/gizzylimelight_cover.jpg" alt="Gizzy Limelight">
+                            <div class="btn-group btn-group-justified">
+                                <a class="btn btn-default btn-prev-gl"><i class="fa fa-backward"></i></a>
+                                <a class="btn btn-default btn-play-gl"><i class="fa fa-spinner fa-spin"></i></a>
+                                <a class="btn btn-default btn-next-gl"><i class="fa fa-forward"></i></a>
+                            </div>
+                            <div id="progress-gl" class="progress">
+                                <div id="sc-progress-gl" class="progress-bar" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                            <h4 id="sc-title-gl" class="text-center copperplate"></h4>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="garamond text-center"><strong>Gizzy Limelight<br> and his Stranded Rock n' Roll Jams</strong></h2>
+                <br>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-hover copperplate">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Side A</th>
+                                    <th class="text-right">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for track in site.data.tracks.gizzylimelight.side_a %}
+                                <tr class="btn-track-gl" data-track="{{ track.number | minus: 1 }}">
+                                    <th scope="row">{{ track.number }}</th>
+                                    <td>{{ track.title }}</td>
+                                    <td class="text-right">{{ track.length }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-hover copperplate">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Side B</th>
+                                    <th class="text-right">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for track in site.data.tracks.gizzylimelight.side_b %}
+                                <tr class="btn-track-gl" data-track="{{ track.number | minus: 1 }}">
+                                    <th scope="row">{{ track.number }}</th>
+                                    <td>{{ track.title }}</td>
+                                    <td class="text-right">{{ track.length }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,62 @@
+---
+layout: default
+title: Story
+---
+
+<div id="story">
+
+    <div class="container text-center">
+        <h1 class="copperplate">Story</h1>
+        <br>
+    </div>
+
+    <div class="container text-justify">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h2 class="garamond text-center"><strong>Rocket Radio</strong></h2>
+                        <br>
+                        <img class="img-rounded img-responsive center-block" src="/img/bluehouse.jpg" alt="Rocket Radio">
+                        <br>
+                        <div class="garamond lead">
+                            {% capture rocketradio_story %}{% include rocketradio_story.markdown %}{% endcapture %}
+                            {{ rocketradio_story | markdownify }}
+                        </div>
+                        <blockquote class="blockquote garamond">
+                            <p>Religion or conspiracy.<br> I cannot tell what's meant to be.</p>
+                            <footer>An Earthling</footer>
+                        </blockquote>
+                        <blockquote class="blockquote-reverse garamond">
+                            <p>Humans lie, emotions tie.<br> As time goes by, remorses die.</p>
+                            <footer>A Jovian</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h2 class="garamond text-center"><strong>Gizzy Limelight</strong></h2>
+                        <br>
+                        <img class="img-rounded img-responsive center-block" src="/img/mandolin.jpg" alt="Gizzy Limelight">
+                        <br>
+                        <div class="garamond lead">
+                            {% capture gizzylimelight_story %}{% include gizzylimelight_story.markdown %}{% endcapture %}
+                            {{ gizzylimelight_story | markdownify }}
+                        </div>
+                        <blockquote class="blockquote garamond">
+                            <p>"All night and day, hard working," they say.<br> "Brilliant today, a phenomenon someday."</p>
+                            <footer>The Light</footer>
+                        </blockquote>
+                        <blockquote class="blockquote-reverse garamond">
+                            <p>He's an anti-star, a false hope by far.<br> He's an anti-hero, all around zero.</p>
+                            <footer>The Shadow</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

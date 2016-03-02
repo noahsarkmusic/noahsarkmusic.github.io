@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>Noah's Ark Music - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Noah's Ark Official Music Website">
-        <meta name="keywords" content="Noah, Ark, Music">
+        <meta name="keywords" content="Noah's Ark Music, Noah's Ark, Noah, Ark, Music, Rock, Classic Rock, Folk, Art, Gizzy Limelight, Gizzy, Limelight, Rocket Radio, Rocket, Radio">
         <meta name="author" content="Noah's Ark">
 
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -37,152 +37,75 @@
     </head>
     <body>
 
-    <div class="wrapper">
-
-        <div class="navbar navbar-inverse navbar-fixed-top visible-sm visible-xs" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">
-                        <span class="copperplate">{{ site.name }}</span>
-                    </a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#intro" class="smooth-scroll"><span class="copperplate">Home</span></a></li>
-                        <li><a href="#music-section" class="smooth-scroll"><span class="copperplate">Music</span></a></li>
-                        <li><a href="#story-section" class="smooth-scroll"><span class="copperplate">Story</span></a></li>
-                        <li><a href="#biography-section" class="smooth-scroll"><span class="copperplate">Biography</span></a></li>
-                        <li><a href="#contact-section" class="smooth-scroll"><span class="copperplate">Contact</span></a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/blog" target="_blank"><span class="copperplate">Blog</span></a></li>
-                    </ul>
-                </div>
+        {% if page.title != "Home" %}
+        <div class="container">
+            <div class="page-header">
+                <h1 class="desdemona desdemona-big visible-sm visible-xs"><a href="/" class="no-link">Noah's Ark</a></h1>
+                <ul class="nav nav-pills pull-right cat desdemona desdemona-medium">
+                    {% if page.title == "Music" %}
+                    <li class="active"><a href="/music">Music</a></li>
+                    {% else %}
+                    <li><a href="/music">Music</a></li>
+                    {% endif %}
+                    {% if page.title == "Story" %}
+                    <li class="active"><a href="/story">Story</a></li>
+                    {% else %}
+                    <li><a href="/story">Story</a></li>
+                    {% endif %}
+                    {% if page.title == "Biography" %}
+                    <li class="active"><a href="/biography">Biography</a></li>
+                    {% else %}
+                    <li><a href="/biography">Biography</a></li>
+                    {% endif %}
+                    {% if page.title == "Contact" %}
+                    <li class="active"><a href="/contact">Contact</a></li>
+                    {% else %}
+                    <li><a href="/contact">Contact</a></li>
+                    {% endif %}
+                    <li><a href="/blog" target="_blank">Blog</a></li>
+                </ul>
+                <div class="clearfix visible-sm visible-xs"></div>
+                <h1 class="desdemona desdemona-big hidden-sm hidden-xs"><a href="/" class="no-link">Noah's Ark</a></h1>
             </div>
         </div>
-
-        <div id="side-nav" class="pull-right hidden-sm hidden-xs">
-            <ul class="nav nav-pills nav-stacked text-right side">
-                <li><a href="#intro" class="smooth-scroll"><span class="copperplate">Home</span></a></li>
-                <li><a href="#music-section" class="smooth-scroll"><span class="copperplate">Music</span></a></li>
-                <li><a href="#story-section" class="smooth-scroll"><span class="copperplate">Story</span></a></li>
-                <li><a href="#biography-section" class="smooth-scroll"><span class="copperplate">Biography</span></a></li>
-                <li><a href="#contact-section" class="smooth-scroll"><span class="copperplate">Contact</span></a></li>
-                <li><a href="/blog" target="_blank"><span class="copperplate">Blog</span></a></li>
-            </ul>
-        </div>
-
-        <div id="side-social" class="pull-left hidden-sm hidden-xs">
-            <ul class="list-unstyled social">
-                <li>
-                    <div class="fb-like" data-href="https://www.facebook.com/noahsmusicark" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                </li>
-                <li>
-                    <a href="https://twitter.com/noahsmusicark" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow</a>
-                </li>
-                <li>
-                    <div class="g-follow" data-href="https://plus.google.com/+noahsarkmusicofficial" data-annotation="bubble" data-height="20" data-rel="publisher"></div>
-                </li>
-                <li>
-                    <div class="g-ytsubscribe" data-channelid="UCqHsNUwMAtEnEetKhC4I0yw" data-layout="default" data-count="default"></div>
-                </li>
-            </ul>
-        </div>
+        {% endif %}
 
     {{ content }}
 
-    </div>
-
-    {% include social.html %}
+        {% if page.title != "Home" %}
+        <div class="container">
+            <div class="footer desdemona">
+                <hr>
+                <ul class="list-inline pull-left clearfix">
+                    <li><a href="/blog" target="_blank" class="no-link">Blog</a></li>
+                    <li> - </li>
+                    <li><a href="https://www.facebook.com/noahsmusicark" target="_blank" class="no-link">Facebook</a></li>
+                    <li> - </li>
+                    <li><a href="https://twitter.com/noahsmusicark" target="_blank" class="no-link">Twitter</a></li>
+                    <li> - </li>
+                    <li><a href="https://plus.google.com/+noahsarkmusicofficial" target="_blank" class="no-link">Google+</a></li>
+                    <li> - </li>
+                    <li><a href="http://www.youtube.com/c/noahsarkmusicofficial" target="_blank" class="no-link">YouTube</a></li>
+                    <li> - </li>
+                    <li><a href="https://soundcloud.com/noahs-ark-music" target="_blank" class="no-link">SoundCloud</a></li>
+                    <li> - </li>
+                    <li><a href="https://instagram.com/noahsarkmusic" target="_blank" class="no-link">Instagram</a></li>
+                    <li> - </li>
+                    <li><a href="mailto:mail@noahsarkmusic.com" class="no-link">Email</a></li>
+                </ul>
+                <p class="pull-right clearfix">Noah's Ark &copy; 2016</p>
+            </div>
+        </div>
+        {% endif %}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/js/jquery-1.11.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
-    <!-- Smooth Scroll JS -->
-    <script src="/js/smoothscroll.js"></script>
-    <!-- Stellar JS -->
-    <script src="/js/jquery.stellar.min.js"></script>
-    <!-- SoundCloud JS -->
-    <script src="/js/soundcloud-api.js"></script>
-    <!-- Parallax JS -->
-    <!-- <script src="/js/jquery.parallax.min.js"></script> -->
 
-    <script>
-        $(document).ready(function() {
-            $.localScroll({
-                filter: '.smooth-scroll',
-                offset: -50
-            });
-
-            $.stellar({
-                horizontalScrolling: false,
-                verticalOffset: 50
-            });
-
-            //$('#scene').parallax();
-        });
-    </script>
-
-    <script>
-        $(function() {
-            var widget = SC.Widget(document.getElementById('sc-widget'));
-
-            widget.bind(SC.Widget.Events.READY, function() {
-                $('.btn-play').html('<i class="fa fa-play"></i>');
-
-                $('.btn-play').click(function() {
-                    widget.toggle();
-                });
-                $('.btn-prev').click(function() {
-                    widget.prev();
-                });
-                $('.btn-next').click(function() {
-                    widget.next();
-                });
-                $('.btn-track').click(function() {
-                    var track = $(this).data('track');
-                    widget.skip(track);
-                });
-                $('.progress').click(function (ev) {
-                    var size = $(this).width();
-                    var offset = $(this).offset();
-                    var x = ev.clientX - offset.left;
-                    var result = x/size;
-                    widget.getDuration(function(soundDuration) {
-                        widget.seekTo(result*soundDuration);
-                    });
-                });
-            });
-
-            widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(currentProgress) {
-                var percent = currentProgress.relativePosition * 100;
-                $('#sc-progress').attr('style', 'width: ' + percent + '%;');
-            });
-
-            widget.bind(SC.Widget.Events.PLAY, function() {
-                $('.btn-play').html('<i class="fa fa-pause"></i>');
-                widget.getCurrentSound(function(currentSound) {
-                    $('#sc-title').text(currentSound.title);
-                    ga('send', 'event', 'Music', 'Play', currentSound.title);
-                });
-            });
-
-            widget.bind(SC.Widget.Events.PAUSE, function() {
-                $('.btn-play').html('<i class="fa fa-play"></i>');
-            });
-
-            widget.bind(SC.Widget.Events.ERROR, function() {
-                $('.btn-play').html('<i class="fa fa-ban"></i> Error');
-            });
-        });
-    </script>
+    {% if page.title == "Music" %}
+    {% include soundcloud.html %}
+    {% endif %}
 
     </body>
 </html>

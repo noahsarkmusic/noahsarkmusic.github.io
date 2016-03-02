@@ -1,0 +1,26 @@
+---
+layout: default
+title: Biography
+---
+
+<div id="biography">
+
+    <div class="container text-center">
+        <h1 class="copperplate">Biography</h1>
+        <br>
+    </div>
+
+    <div class="container text-justify">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <img class="img-rounded img-responsive center-block" src="/img/sitar.jpg" alt="Biography">
+                <br>
+                <div class="garamond lead">
+                    {% capture biography %}{% include biography.markdown %}{% endcapture %}
+                    {{ biography | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,147 @@
+gizzylimelight:
+
+  side_a:
+
+    - number: 1
+      title: Prologue Of A Precarious Tale
+      length: "3:47"
+
+    - number: 2
+      title: Storytelling - Part 1
+      length: "1:35"
+
+    - number: 3
+      title: In The Tempest
+      length: "3:02"
+
+    - number: 4
+      title: Aquarian Exposition
+      length: "3:47"
+
+    - number: 5
+      title: Storytelling - Part 2
+      length: "1:39"
+
+    - number: 6
+      title: Anti-Star
+      length: "4:57"
+
+    - number: 7
+      title: Half-Man's Land
+      length: "3:59"
+
+    - number: 8
+      title: Storytelling - Part 3
+      length: "1:02"
+
+    - number: 9
+      title: Over The Clouds
+      length: "4:11"
+
+  side_b:
+
+    - number: 10
+      title: Rock N' Roll Hymn
+      length: "6:32"
+
+    - number: 11
+      title: Storytelling - Part 4
+      length: "1:02"
+
+    - number: 12
+      title: Cherry Mountains
+      length: "9:42"
+
+    - number: 13
+      title: Storytelling - Part 5
+      length: "1:13"
+
+    - number: 14
+      title: Graves Of The Lullabies
+      length: "3:56"
+
+    - number: 15
+      title: Post-Man's Journey
+      length: "6:20"
+
+    - number: 16
+      title: Epilogue Of A Hopeless Fate
+      length: "6:36"
+
+    - number: 17
+      title: Storytelling - Part 6
+      length: "1:13"
+
+    - number: 18
+      title: Sea Of Creation
+      length: "5:51"
+
+rocketradio:
+
+  - number: 1
+    title: I Don't Need No Technology
+    length: "5:04"
+
+  - number: 2
+    title: Rocket Radio
+    length: "5:13"
+
+#  - number: 1
+#    title: I Don't Need No Technology
+#    length: "5:04"
+
+#  - number: 2
+#    title: Dust And Thoughts
+#    length: "5:04"
+
+#  - number: 3
+#    title: Rocket Radio
+#    length: "5:13"
+
+#  - number: 4
+#    title: One Song
+#    length: "0:00"
+
+#  - number: 5
+#    title: Star Fright
+#    length: "0:00"
+
+#  - number: 6
+#    title: A Loner's Life
+#    length: "0:00"
+
+#  - number: 7
+#    title: Back To The Land
+#    length: "0:00"
+
+#  - number: 8
+#    title: Lady Light
+#    length: "0:00"
+
+#  - number: 9
+#    title: Sail My Heart Away
+#    length: "0:00"
+
+#  - number: 10
+#    title: Let Me Put Some Life Into You
+#    length: "0:00"
+
+#  - number: 11
+#    title: Confessions Of A Wingman
+#    length: "0:00"
+
+#  - number: 12
+#    title: Quid Pro Quo
+#    length: "0:00"
+
+#  - number: 13
+#    title: Landscape Manifesto
+#    length: "0:00"
+
+#  - number: 14
+#    title: Where's The World?
+#    length: "0:00"
+
+#  - number: 15
+#    title: Earthling Woman Blues
+#    length: "0:00"
