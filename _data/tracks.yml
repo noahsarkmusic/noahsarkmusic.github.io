@@ -3,7 +3,7 @@ gizzylimelight:
   side_a:
 
     - number: 1
-      title: Prologue Of A Precarious Tale
+      title: Prologue of a Precarious Tale
       length: "3:47"
 
     - number: 2
@@ -11,7 +11,7 @@ gizzylimelight:
       length: "1:35"
 
     - number: 3
-      title: In The Tempest
+      title: In the Tempest
       length: "3:02"
 
     - number: 4
@@ -35,13 +35,13 @@ gizzylimelight:
       length: "1:02"
 
     - number: 9
-      title: Over The Clouds
+      title: Over the Clouds
       length: "4:11"
 
   side_b:
 
     - number: 10
-      title: Rock N' Roll Hymn
+      title: Rock n' Roll Hymn
       length: "6:32"
 
     - number: 11
@@ -57,7 +57,7 @@ gizzylimelight:
       length: "1:13"
 
     - number: 14
-      title: Graves Of The Lullabies
+      title: Graves of the Lullabies
       length: "3:56"
 
     - number: 15
@@ -65,7 +65,7 @@ gizzylimelight:
       length: "6:20"
 
     - number: 16
-      title: Epilogue Of A Hopeless Fate
+      title: Epilogue of a Hopeless Fate
       length: "6:36"
 
     - number: 17
@@ -73,7 +73,7 @@ gizzylimelight:
       length: "1:13"
 
     - number: 18
-      title: Sea Of Creation
+      title: Sea of Creation
       length: "5:51"
 
 rocketradio:
@@ -91,7 +91,7 @@ rocketradio:
 #    length: "5:04"
 
 #  - number: 2
-#    title: Dust And Thoughts
+#    title: Dust and Thoughts
 #    length: "5:04"
 
 #  - number: 3
@@ -111,7 +111,7 @@ rocketradio:
 #    length: "0:00"
 
 #  - number: 7
-#    title: Back To The Land
+#    title: Back to the Land
 #    length: "0:00"
 
 #  - number: 8
@@ -127,7 +127,7 @@ rocketradio:
 #    length: "0:00"
 
 #  - number: 11
-#    title: Confessions Of A Wingman
+#    title: Confessions of a Wingman
 #    length: "0:00"
 
 #  - number: 12
@@ -139,9 +139,9 @@ rocketradio:
 #    length: "0:00"
 
 #  - number: 14
-#    title: Where's The World?
+#    title: Where's the World?
 #    length: "0:00"
 
 #  - number: 15
-#    title: Earthling Woman Blues
+#    title: Earthlin' Woman Blues
 #    length: "0:00"
