@@ -78,98 +78,70 @@ gizzylimelight:
 
 rocketradio:
 
-  - number: 1
-    title: I Don't Need No Technology
-    length: "5:04"
+  side_a:
 
-  - number: 2
-    title: Rocket Radio
-    length: "5:13"
+    - number: 1
+      title: I Don't Need No Technology
+      length: "5:04"
 
-  - number: 3
-    title: Star Fright
-    length: "4:23"
+    - number: 2
+      title: Dust and Thoughts
+      length: "5:04"
 
-  - number: 4
-    title: A Loner's Life
-    length: "5:48"
+    - number: 3
+      title: Rocket Radio
+      length: "5:13"
 
-  - number: 5
-    title: Take Me Back
-    length: "6:50"
+    - number: 4
+      title: One and Only Song
+      length: "5:37"
 
-  - number: 6
-    title: Lady Light
-    length: "4:36"
+  side_b:
 
-  - number: 7
-    title: Let Me Put Some Life Into You
-    length: "3:47"
+    - number: 5
+      title: Star Fright
+      length: "4:23"
 
-#  side_a:
+    - number: 6
+      title: A Loner's Life
+      length: "5:48"
 
-#    - number: 1
-#      title: I Don't Need No Technology
-#      length: "5:04"
+    - number: 7
+      title: Take Me Back
+      length: "6:50"
 
-#    - number: 2
-#      title: Dust and Thoughts
-#      length: "5:04"
+    - number: 8
+      title: Lady Light
+      length: "4:36"
 
-#    - number: 3
-#      title: Rocket Radio
-#      length: "5:13"
+  side_c:
 
-#    - number: 4
-#      title: One and Only Song
-#      length: "5:37"
+    - number: 9
+      title: Don't Sail My Heart Away
+      length: "5:52"
 
-#  side_b:
+    - number: 10
+      title: Let Me Put Some Life Into You
+      length: "3:47"
 
-#    - number: 5
-#      title: Star Fright
-#      length: "4:23"
+    - number: 11
+      title: Confessions of a Wingman
+      length: "5:21"
 
-#    - number: 6
-#      title: A Loner's Life
-#      length: "5:48"
+    - number: 12
+      title: Landscape Manifesto
+      length: "4:24"
 
-#    - number: 7
-#      title: Take Me Back
-#      length: "6:50"
+  side_d:
 
-#    - number: 8
-#      title: Lady Light
-#      length: "4:36"
+    - number: 13
+      title: Quid Pro Quo
+      length: "8:46"
 
-#  side_c:
+    - number: 14
+      title: Where's the World?
+      length: "4:49"
 
-#    - number: 9
-#      title: Don't Sail My Heart Away
-#      length: "5:52"
-
-#    - number: 10
-#      title: Let Me Put Some Life Into You
-#      length: "3:47"
-
-#    - number: 11
-#      title: Confessions of a Wingman
-#      length: "5:21"
-
-#    - number: 12
-#      title: Landscape Manifesto
-#      length: "4:24"
-
-#  side_d:
-
-#    - number: 13
-#      title: Quid Pro Quo
-#      length: "8:46"
-
-#    - number: 14
-#      title: Where's the World?
-#      length: "4:49"
-
-#    - number: 15
-#      title: Earthlin' Woman Blues
-#      length: "4:13"
+    - number: 15
+      title: Earthlin' Woman Blues
+      length: "4:13"
