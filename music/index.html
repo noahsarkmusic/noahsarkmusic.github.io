@@ -40,12 +40,78 @@ title: Music
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Singles</th>
+                                    <th>Side A</th>
                                     <th class="text-right">Length</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for track in site.data.tracks.rocketradio %}
+                                {% for track in site.data.tracks.rocketradio.side_a %}
+                                <tr class="btn-track-rr" data-track="{{ track.number | minus: 1 }}">
+                                    <th scope="row">{{ track.number }}</th>
+                                    <td>{{ track.title }}</td>
+                                    <td class="text-right">{{ track.length }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-hover copperplate">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Side B</th>
+                                    <th class="text-right">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for track in site.data.tracks.rocketradio.side_b %}
+                                <tr class="btn-track-rr" data-track="{{ track.number | minus: 1 }}">
+                                    <th scope="row">{{ track.number }}</th>
+                                    <td>{{ track.title }}</td>
+                                    <td class="text-right">{{ track.length }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-hover copperplate">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Side C</th>
+                                    <th class="text-right">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for track in site.data.tracks.rocketradio.side_c %}
+                                <tr class="btn-track-rr" data-track="{{ track.number | minus: 1 }}">
+                                    <th scope="row">{{ track.number }}</th>
+                                    <td>{{ track.title }}</td>
+                                    <td class="text-right">{{ track.length }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-hover copperplate">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Side D</th>
+                                    <th class="text-right">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for track in site.data.tracks.rocketradio.side_d %}
                                 <tr class="btn-track-rr" data-track="{{ track.number | minus: 1 }}">
                                     <th scope="row">{{ track.number }}</th>
                                     <td>{{ track.title }}</td>
