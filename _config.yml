@@ -1,6 +1,6 @@
 name: Noah's Ark Music
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
-timezone: America/Montreal
+timezone: Europe/London
 url: http://www.noahsarkmusic.com
 
 permalink: /blog/:categories/:year/:month/:day/:title.html
