@@ -1,5 +1,5 @@
 ---
-title: "Can't Buy a Thrill"
+title: "Timeless Masterpieces of Classic Rock: Can't Buy a Thrill"
 category: heroes
 image: /media/thrill_vinyl.jpg
 caption: "Can't Buy a Thrill by Steely Dan."
