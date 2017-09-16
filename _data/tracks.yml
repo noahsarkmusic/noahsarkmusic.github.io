@@ -145,3 +145,33 @@ rocketradio:
     - number: 15
       title: Earthlin' Woman Blues
       length: "4:13"
+
+friendsandanimals:
+
+  side_a:
+
+    - number: 1
+      title: Won't You Dance with Me Again
+      length: "3:07"
+
+    - number: 2
+      title: Can You Put a Smile on Your Face
+      length: "3:52"
+
+    - number: 3
+      title: Do What You Need to Do
+      length: "6:29"
+
+  side_b:
+
+    - number: 4
+      title: Water of Life
+      length: "5:45"
+
+    - number: 5
+      title: Twelve O'Clock Blues
+      length: "2:02"
+
+    - number: 6
+      title: Reason to Believe
+      length: "3:58"
