@@ -3,6 +3,60 @@
 
 <script>
     $(function() {
+        var widget = SC.Widget(document.getElementById('sc-widget-fa'));
+
+        widget.bind(SC.Widget.Events.READY, function() {
+            $('.btn-play-fa').html('<i class="fa fa-play"></i>');
+
+            $('.btn-play-fa').click(function() {
+                widget.toggle();
+            });
+            $('.btn-prev-fa').click(function() {
+                widget.prev();
+            });
+            $('.btn-next-fa').click(function() {
+                widget.next();
+            });
+            $('.btn-track-fa').click(function() {
+                var track = $(this).data('track');
+                widget.skip(track);
+            });
+            $('#progress-fa').click(function (ev) {
+                var size = $(this).width();
+                var offset = $(this).offset();
+                var x = ev.clientX - offset.left;
+                var result = x/size;
+                widget.getDuration(function(soundDuration) {
+                    widget.seekTo(result*soundDuration);
+                });
+            });
+        });
+
+        widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(currentProgress) {
+            var percent = currentProgress.relativePosition * 100;
+            $('#sc-progress-fa').attr('style', 'width: ' + percent + '%;');
+        });
+
+        widget.bind(SC.Widget.Events.PLAY, function() {
+            $('.btn-play-fa').html('<i class="fa fa-pause"></i>');
+            widget.getCurrentSound(function(currentSound) {
+                $('#sc-title-fa').text(currentSound.title);
+                ga('send', 'event', 'Music', 'Play', currentSound.title);
+            });
+        });
+
+        widget.bind(SC.Widget.Events.PAUSE, function() {
+            $('.btn-play-fa').html('<i class="fa fa-play"></i>');
+        });
+
+        widget.bind(SC.Widget.Events.ERROR, function() {
+            $('.btn-play-fa').html('<i class="fa fa-ban"></i> Error');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
         var widget = SC.Widget(document.getElementById('sc-widget-rr'));
 
         widget.bind(SC.Widget.Events.READY, function() {
