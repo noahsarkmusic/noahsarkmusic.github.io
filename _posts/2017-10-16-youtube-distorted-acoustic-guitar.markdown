@@ -9,7 +9,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://youtu.be/ZTZNPedodo0"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=ZTZNPedodo0"></iframe>
 </div>
 
 _Distorted Acoustic Guitar on YouTube._
