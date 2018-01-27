@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zfEGKzjfgk0"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zfEGKzjfgk0" allowfullscreen></iframe>
 </div>
 
 _Pink Floyd's Leslie Piano on YouTube._

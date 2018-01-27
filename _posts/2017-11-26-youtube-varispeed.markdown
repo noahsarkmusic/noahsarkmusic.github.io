@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5B2CF5i2dR8"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5B2CF5i2dR8" allowfullscreen></iframe>
 </div>
 
 _Varispeed Tape Effects on YouTube._

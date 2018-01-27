@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j_7yhdzwAAE"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j_7yhdzwAAE" allowfullscreen></iframe>
 </div>
 
 _Harmony Guitar on YouTube._

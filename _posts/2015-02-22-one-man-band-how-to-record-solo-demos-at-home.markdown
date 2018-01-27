@@ -87,7 +87,7 @@ If you don’t believe one-man band recording is efficient enough, I highly sugg
 As the main songwriter for The Who, Pete Townshend was the brain behind the band. He used to record entire album demos such as _Tommy_ and _Quadrophenia_ by himself at his home studio. He would later present them to the band members in order to rehearse and record the songs in the studio again. It sounds so powerful you won’t believe it.
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mGuRvEqm78k"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mGuRvEqm78k" allowfullscreen></iframe>
 </div>
 
 _Demo of "Pure and Easy" by Pete Townshend._
@@ -96,7 +96,7 @@ _Demo of "Pure and Easy" by Pete Townshend._
 _Something/Anything?_ is a masterpiece born from Todd Rundgren’s frustration to find competent musicians to record with. He decided to play all instruments on the first three sides of the double album. It is quite grooving in my honest opinion.
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wa_dn7xhzT8"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wa_dn7xhzT8" allowfullscreen></iframe>
 </div>
 
 _"Couldn't I Just Tell You" by Todd Rundgren._

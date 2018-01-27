@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hwIhPdNXCr8"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hwIhPdNXCr8" allowfullscreen></iframe>
 </div>
 
 _David Gilmour's Leslie Guitar on YouTube._

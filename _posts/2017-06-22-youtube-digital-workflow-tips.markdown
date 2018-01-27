@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ogGTRiToepw"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ogGTRiToepw" allowfullscreen></iframe>
 </div>
 
 _Digital Workflow Tips on YouTube._

@@ -26,7 +26,7 @@ But what is rock and roll really? Although, its origins are hard to define and s
 It all starts with electrifying instruments that were originally acoustic, hence for example plugging a guitar in an amp. My father used to tell me that I could not understand rock without listening to blues guitarists like Chuck Berry, Muddy Waters, Howlin’ Wolf, Buddy Guy, B.B. King and Willie Dixon. But I just could not get it at the time. I just wanted to blast AC/DC or The Who. I did not see how it related to Angus Young’s burning solos and duckwalks or Pete Townshend’s power chords and mesmerizing windmills.
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X7LVHiMzyrA"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X7LVHiMzyrA" allowfullscreen></iframe>
 </div>
 
 _Pete Townshend executing his signature windmill._

@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tjsb9WWrBSM"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tjsb9WWrBSM" allowfullscreen></iframe>
 </div>
 
 _Tape Delay on YouTube._

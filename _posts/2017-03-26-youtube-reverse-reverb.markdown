@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c44fo6I0qbc"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c44fo6I0qbc" allowfullscreen></iframe>
 </div>
 
 _Pink Floyd's Reverse Reverb on YouTube._

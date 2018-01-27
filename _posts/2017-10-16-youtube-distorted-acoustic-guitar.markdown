@@ -13,7 +13,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZTZNPedodo0"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZTZNPedodo0" allowfullscreen></iframe>
 </div>
 
 _Keith Richards' Distorted Acoustic Guitar on YouTube._

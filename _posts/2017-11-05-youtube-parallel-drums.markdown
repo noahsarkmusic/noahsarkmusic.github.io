@@ -10,7 +10,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wRevuU-grf4"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wRevuU-grf4" allowfullscreen></iframe>
 </div>
 
 _Dynamic Range Tips on YouTube._

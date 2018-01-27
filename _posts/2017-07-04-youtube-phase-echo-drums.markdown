@@ -13,7 +13,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zDZqcOvt4gs"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zDZqcOvt4gs" allowfullscreen></iframe>
 </div>
 
 _Led Zeppelin's Phased and Delayed Drums on YouTube._

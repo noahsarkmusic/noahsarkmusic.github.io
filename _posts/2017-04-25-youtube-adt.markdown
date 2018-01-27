@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jnQ9T-NIcgo"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jnQ9T-NIcgo" allowfullscreen></iframe>
 </div>
 
 _The Beatles ADT on YouTube._

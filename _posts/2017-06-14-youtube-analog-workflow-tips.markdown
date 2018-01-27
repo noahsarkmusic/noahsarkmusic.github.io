@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lCnzOn7G7I4"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lCnzOn7G7I4" allowfullscreen></iframe>
 </div>
 
 _Analog Workflow Tips on YouTube._

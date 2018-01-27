@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N1GfsemZ7JI"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N1GfsemZ7JI" allowfullscreen></iframe>
 </div>
 
 _Pete Townshend's Synth Organ on YouTube._

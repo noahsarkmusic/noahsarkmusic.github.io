@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BdlYw_hxCgE"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BdlYw_hxCgE" allowfullscreen></iframe>
 </div>
 
 _Reamping on YouTube._

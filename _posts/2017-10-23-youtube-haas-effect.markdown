@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZKoIAIbXc0o"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZKoIAIbXc0o" allowfullscreen></iframe>
 </div>
 
 _Mono to Stereo Tips on YouTube._

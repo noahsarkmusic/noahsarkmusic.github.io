@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rv1lrGDtKIg"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rv1lrGDtKIg" allowfullscreen></iframe>
 </div>
 
 _Honky Tonk Piano on YouTube._

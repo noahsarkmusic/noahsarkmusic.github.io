@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/z3mOR_mnbo8"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/z3mOR_mnbo8" allowfullscreen></iframe>
 </div>
 
 _Mid/Side on YouTube._

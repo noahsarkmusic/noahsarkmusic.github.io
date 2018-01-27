@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KLqyYr2QIBg"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KLqyYr2QIBg" allowfullscreen></iframe>
 </div>
 
 _Tape Mastering on YouTube._

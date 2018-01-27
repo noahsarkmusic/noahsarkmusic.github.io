@@ -9,7 +9,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xN1xyDhzmdI"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xN1xyDhzmdI" allowfullscreen></iframe>
 </div>
 
 _Channel Trailer on YouTube._

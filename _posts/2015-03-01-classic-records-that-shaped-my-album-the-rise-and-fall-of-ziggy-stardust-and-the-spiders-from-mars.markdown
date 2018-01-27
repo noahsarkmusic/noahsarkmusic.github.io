@@ -26,7 +26,7 @@ All in all, this is one of those perfect albums that transports you from start t
 However, this impersonation started to drive him crazy until the madness grew as a sickness. On July 3rd 1973, he actually committed the fictional “Rock ’n’ Roll Suicide” at the Hammersmith Odeon by destroying the character. He ended the tour abruptly and The Spiders from Mars disbanded indefinitely.
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WLZNBbxJ2xo"></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WLZNBbxJ2xo" allowfullscreen></iframe>
 </div>
 
 _"Rock 'n' Roll Suicide" by David Bowie at the Hammersmith Odeon on July 3rd 1973._
