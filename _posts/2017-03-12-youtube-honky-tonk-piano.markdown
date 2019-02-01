@@ -1,5 +1,5 @@
 ---
-title: "How to Recreate the Honky Tonk Piano Sound - YouTube"
+title: "How to Recreate the Honky Tonk Piano Sound like the Beatles - YouTube"
 category: motion
 image: /media/youtube_title.jpg
 caption: "Thinking Inside the Box on YouTube."
@@ -8,6 +8,7 @@ tags:
   - youtube
   - honky-tonk
   - piano
+  - beatles
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

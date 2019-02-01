@@ -1,5 +1,5 @@
 ---
-title: "How to Recreate the Leslie Vocal Effect - YouTube"
+title: "How to Recreate the Leslie Vocal Effect like the Grateful Dead - YouTube"
 category: motion
 image: /media/youtube_title.jpg
 caption: "Thinking Inside the Box on YouTube."
@@ -8,6 +8,7 @@ tags:
   - youtube
   - leslie
   - vocals
+  - grateful-dead
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

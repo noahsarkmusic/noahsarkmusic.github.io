@@ -1,5 +1,5 @@
 ---
-title: "How to Recreate the Tape Flanging Effect - YouTube"
+title: "How to Recreate the Tape Flanging Effect like the Small Faces - YouTube"
 category: motion
 image: /media/youtube_title.jpg
 caption: "Thinking Inside the Box on YouTube."
@@ -7,6 +7,7 @@ tags:
   - video
   - youtube
   - tape-flanging
+  - small-faces
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

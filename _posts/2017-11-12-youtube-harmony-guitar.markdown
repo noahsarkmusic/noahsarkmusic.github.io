@@ -1,5 +1,5 @@
 ---
-title: "How to Harmonize Lead Guitar Melodies - YouTube"
+title: "How to Harmonize Lead Guitar Melodies like Steely Dan - YouTube"
 category: motion
 image: /media/youtube_title_3.jpg
 caption: "Striking a Chord on YouTube."
@@ -9,6 +9,7 @@ tags:
   - harmony
   - guitar
   - melody
+  - steely-dan
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

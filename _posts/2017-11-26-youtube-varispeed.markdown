@@ -1,5 +1,5 @@
 ---
-title: "How to Recreate Varispeed Tape Effects - YouTube"
+title: "How to Recreate Varispeed Tape Effects like the Beatles - YouTube"
 category: motion
 image: /media/youtube_title.jpg
 caption: "Thinking Inside the Box on YouTube."
@@ -8,6 +8,7 @@ tags:
   - youtube
   - varispeed
   - tape
+  - beatles
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

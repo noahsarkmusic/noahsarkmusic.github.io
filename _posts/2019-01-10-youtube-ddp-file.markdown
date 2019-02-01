@@ -17,6 +17,6 @@ tags:
 _DDP Images on YouTube._
 {: .text-center .text-muted}
 
-Hi, welcome to an episode of “Breaking the Code” on Noah’s Ark. In the video, we're gonna talk about how to distribute music on CDs with DDP images.
+Hi, welcome to a new series focusing on audio programming and DSP called “Breaking the Code” on Noah’s Ark. In the video, we're gonna talk about how to distribute music on CDs with DDP images.
 
 To find out more about DDP images, you can watch the video above or on YouTube [here](https://youtu.be/gkLxXjryXLk).
