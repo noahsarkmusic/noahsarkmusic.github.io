@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iGJ7krQyvCA" allowfullscreen></iframe>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/z4FBcGuAPss" allowfullscreen></iframe>
 </div>
 
 _Diatonic Chords on YouTube._
@@ -29,4 +29,4 @@ These can also be applied to minor keys by shifting the chords three semitones d
 
 When borrowing chords from outside the diatonic world, interesting harmonies can arise and composition can modulate to different keys.
 
-To find out more about diatonic chords, you can watch the video above or on YouTube [here](https://youtu.be/iGJ7krQyvCA).
+To find out more about diatonic chords, you can watch the video above or on YouTube [here](https://youtu.be/z4FBcGuAPss).
